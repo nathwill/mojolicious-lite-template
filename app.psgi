@@ -1,8 +1,10 @@
-use Mojoliciouse::Lite;
+use Mojolicious::Lite;
 
 get '/' => {text => 'Hello World!'};
 
 app->start;
+
+__DATA__
 
 @@ index.html.ep
 % layout 'default';
