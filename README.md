@@ -1,0 +1,2 @@
+mojolicious-lite-template
+=============================
